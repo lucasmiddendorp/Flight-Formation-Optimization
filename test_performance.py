@@ -3,13 +3,7 @@ import numpy as np
 from performance import calculate_fuel_cost, is_in_formation
 
 def plot_paths(agent_path, formation_path, in_formation_flags):
-    """
-    Plot the agent's path, formation path, and highlight segments where the agent is in formation.
-    
-    :param agent_path: The list of coordinates representing the path taken by the agent.
-    :param formation_path: The list of coordinates representing the optimal formation path.
-    :param in_formation_flags: A list of boolean values indicating if the agent is in formation for each segment.
-    """
+
     agent_path = np.array(agent_path)
     formation_path = np.array(formation_path)
     

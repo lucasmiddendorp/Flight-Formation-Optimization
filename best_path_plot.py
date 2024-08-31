@@ -5,14 +5,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 def plot_best_path(env, best_path, destination, drafting_threshold):
-    """
-    Plot the best path taken by the best agent, show the destination, and highlight the drafting areas around each leader's path.
-    
-    :param env: The environment containing the leader's paths.
-    :param best_path: List of (x, y) tuples representing the best agent's path.
-    :param destination: (x, y) tuple representing the destination.
-    :param drafting_threshold: Distance threshold to highlight the drafting area around the leader's paths.
-    """
+
     plt.figure(figsize=(10, 6))
     
     # Iterate over each leader's path in the environment

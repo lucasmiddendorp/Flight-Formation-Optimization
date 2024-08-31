@@ -1,17 +1,8 @@
 import numpy as np
 
 def generate_waypoints(start_position, initial_heading, decisions, distance_between_waypoints, destination, threshold=2.0):
-    """
-    Generate waypoints dynamically based on the aircraft's decisions at each waypoint.
-    
-    :param start_position: Starting position of the aircraft (numpy array)
-    :param initial_heading: The initial heading (in degrees) of the aircraft
-    :param decisions: List of decisions (angles in degrees) made at each waypoint
-    :param distance_between_waypoints: Distance between consecutive waypoints
-    :param destination: The final destination position (numpy array)
-    :param threshold: Distance threshold to stop generating waypoints when close to the destination
-    :return: List of waypoints
-    """
+
+
     # print("Generating waypoints...")
     waypoints = [start_position]
     current_position = start_position

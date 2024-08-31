@@ -3,16 +3,7 @@ from agent import Agent
 import numpy as np
 
 def crossover(parent1, parent2):
-    """
-    Performs a single-point crossover between two parents (Agent objects).
-    
-    Args:
-        parent1 (Agent): The first parent, an Agent object.
-        parent2 (Agent): The second parent, an Agent object.
-        
-    Returns:
-        tuple: Two offspring (Agent objects) created by crossover.
-    """
+
     # Access the decisions (or actions) list from the parent objects
     parent1_decisions = parent1.decisions
     parent2_decisions = parent2.decisions

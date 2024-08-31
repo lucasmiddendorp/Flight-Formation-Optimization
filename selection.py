@@ -1,17 +1,8 @@
 import random
 
 def select_parents(population, fitness_scores, tournament_size):
-    """
-    Selects two parents from the population using tournament selection.
-    
-    Args:
-        population (Population): The current population object.
-        fitness_scores (list): A list of fitness scores corresponding to the population.
-        tournament_size (int): The number of individuals to compete in each tournament.
 
-    Returns:
-        tuple: Two parents selected from the population.
-    """
+
     parents = []
     
     # Get the list of individuals from the Population object

@@ -6,10 +6,10 @@ from agent import Agent
 def test_waypoints():
     # Define the test parameters
     start_position = np.array([0, 0])
-    initial_heading = 0  # Facing East (0 degrees)
-    decisions = [0, 15, -10, 5, 0]  # Example decisions: straight, 15° turn, -10° turn, 5° turn, straight
-    distance_between_waypoints = 20  # 20 km between waypoints
-    destination = np.array([100, 0])  # Example destination
+    initial_heading = 0  
+    decisions = [0, 15, -10, 5, 0]  
+    distance_between_waypoints = 20  
+    destination = np.array([100, 0])  
     
     # Generate the waypoints
     waypoints = generate_waypoints(start_position, initial_heading, decisions, distance_between_waypoints, destination)

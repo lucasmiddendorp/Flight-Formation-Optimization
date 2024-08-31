@@ -1,15 +1,8 @@
 import numpy as np
 
 def calculate_fuel_cost(path, formation_paths, drafting_threshold, distance_between_waypoints, draft_benefit):
-    """
-    Calculate the fuel cost for the given path.
 
-    :param path: The list of coordinates representing the path taken by the agent.
-    :param formation_paths: The list of coordinates representing the optimal formation paths.
-    :param drafting_threshold: The threshold distance within which drafting occurs.
-    :param draft_benefit: The fractional fuel saving during drafting (e.g., 0.9 for 10% savings).
-    :return: The fuel cost for the path.
-    """
+
     fuel_cost = 0
 
     for i in range(1, len(path)):
