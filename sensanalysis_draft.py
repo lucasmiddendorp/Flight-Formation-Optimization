@@ -26,7 +26,7 @@ leader_path2 = [[0,20], [100, 20]]
 leader_paths = [leader_path1, leader_path2]
 
 # Define the parameters for the evolutionary algorithm
-pop_size = 1000
+pop_size = 2000
 num_generations = 20
 mutation_rate = 0.01
 tournament_size = 10

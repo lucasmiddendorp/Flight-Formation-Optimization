@@ -29,7 +29,7 @@ leader_paths = [leader_path1]
 # Define generations to test
 generation_counts = [1, 2, 3, 5, 8, 14, 24, 40, 69, 200]
 
-pop_size = 1000
+pop_size = 2000
 mutation_rate = 0.01
 tournament_size = 10
 
